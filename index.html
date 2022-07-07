@@ -11,6 +11,12 @@
 </head>
 
 <body>
+    <script>
+        function calculate(input){
+            form.display.value += input;
+
+        }
+    </script>
     <section>
         <div class="container">
             <form action="" name="form">
@@ -23,9 +29,9 @@
                     <input type="button" value="/" class="button" onclick="calculate(this.value)">
                 </div>
                 <div class="buttons">
-                    <input type="button" value="6" class="button" onclick="calculate(this.value)">
-                    <input type="button" value="5" class="button" onclick="calculate(this.value)">
                     <input type="button" value="4" class="button" onclick="calculate(this.value)">
+                    <input type="button" value="5" class="button" onclick="calculate(this.value)">
+                    <input type="button" value="6" class="button" onclick="calculate(this.value)">
                     <input type="button" value="*" class="button" onclick="calculate(this.value)">
                 </div>
                 <div class="buttons">
@@ -48,12 +54,6 @@
         </div>
     </section>
 
-    <script>
-        function calculate(x){
-            form.display.value += x;
-
-        }
-    </script>
 </body>
 
 </html>
